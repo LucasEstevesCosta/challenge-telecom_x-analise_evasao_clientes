@@ -5,12 +5,14 @@ Este projeto tem como objetivo analisar os dados de clientes da Telecom X para i
 ## Estrutura do Projeto e Organização dos Arquivos
 
 A estrutura do repositório está organizada da seguinte forma:
+```
 .
 ├── .git/
 ├── .gitattributes
 ├── analise_telecon_x
 ├── LICENSE
 └── README
+```
 
 Descrição dos Itens:
 `.git/`: Este diretório oculto é essencial para o Git. Ele contém todo o histórico do seu projeto, incluindo commits, branches e tags. É onde o Git armazena todas as informações necessárias para gerenciar as versões do seu código.
