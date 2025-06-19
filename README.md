@@ -15,10 +15,15 @@ A estrutura do repositório está organizada da seguinte forma:
 ```
 
 Descrição dos Itens:
+
 `.git/`: Este diretório oculto é essencial para o Git. Ele contém todo o histórico do seu projeto, incluindo commits, branches e tags. É onde o Git armazena todas as informações necessárias para gerenciar as versões do seu código.
+
 `.gitattributes`: Um arquivo de configuração do Git que permite definir atributos para caminhos específicos. Ele pode ser usado para coisas como normalização de line endings, definição de drivers de merge ou para marcar arquivos binários.
+
 `analise_telecon_x`: Parece ser um arquivo específico do seu projeto, possivelmente contendo dados ou scripts relacionados a uma análise de telecomunicações. O nome sugere que ele pode ser um arquivo de dados, um notebook (como Jupyter), ou um script.
+
 `LICENSE`: Este arquivo especifica os termos sob os quais seu projeto pode ser usado, modificado e distribuído. É crucial para projetos de código aberto, pois informa aos usuários e colaboradores sobre seus direitos e responsabilidades.
+
 `README`: Um arquivo de documentação fundamental. Ele geralmente fornece uma visão geral do projeto, instruções de instalação, exemplos de uso, informações de contribuição e quaisquer outros detalhes importantes que novos usuários ou colaboradores precisam saber para começar.
 
 ## Exemplos de Gráficos e Insights Obtidos
@@ -33,6 +38,14 @@ Durante a análise, foram gerados diversos gráficos para visualizar a relação
 - **Gasto Mensal:** Clientes com gastos mensais mais altos tendem a evadir mais.
 
 A análise detalhada e os gráficos correspondentes podem ser encontrados no notebook principal.
+
+## Estrutura do notebook
+O notebook `analise_telecon_x.ipynb` está estruturado nas seguintes seções:
+
+1.  **Extração:** Carregamento dos dados a partir de uma URL e normalização da estrutura JSON.
+2.  **Transformação:** Limpeza e tratamento dos dados, incluindo a conversão de tipos, padronização de strings, tratamento de valores ausentes/vazios, renomeamento e tradução de colunas e termos, e a criação da coluna `contas_diarias`.
+3.  **Carga e Análise:** Realização de análises estatísticas descritivas e criação de visualizações utilizando a biblioteca Plotly para explorar a relação entre diversas variáveis e a evasão de clientes.
+4.  **Relatório Final:** Resumo das descobertas, insights e sugestões baseadas na análise.
 
 ## Instruções para Executar o Notebook
 
